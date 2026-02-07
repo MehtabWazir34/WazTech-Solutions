@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import RequestForm from "./RequestForm";
+import RequestForm from "../Pages/RequestForm";
 
 function Reviews() {
   useEffect(() => {

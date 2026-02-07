@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import RequestForm from "../components/RequestForm";
+import RequestForm from "../Pages/RequestForm";
 import Aos from "aos";
 import graphicsCard from "../assets/graphics.jpg";
 import VideoCard from "../assets/Video editing.jpg"

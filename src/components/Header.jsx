@@ -8,8 +8,8 @@ function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center px-6 py-4 bg-gray-100 shadow-md dark:bg-gray-900 transition-colors duration-300">
-      <img src={logo} alt="logo" className="w-20 h-14 rounded-lg" />
+    <header className="flex justify-between items-center px-6 bg-gray-100 shadow-md dark:bg-gray-900 transition-colors duration-300">
+      <img src={logo} alt="logo" className="w-32 h-32 rounded-lg" />
 
       {/* Small Screens Menu */}
       <AnimatePresence>
@@ -47,7 +47,7 @@ function Header() {
                 : "hover:text-amber-400"
             }
           >
-            Us
+            About Us
           </NavLink>
         </li>
         <li>
@@ -122,7 +122,7 @@ function Header() {
                 : "hover:text-amber-400"
             }
           >
-            Us
+            About Us
           </NavLink>
         </li>
         <li>
@@ -164,7 +164,7 @@ function Header() {
       </ul>
     </motion.nav>
 
-      <div className="flex items-center gap-4 ">
+      <div className="flex items-center justify-end w-full md:w-1/2 gap-4 ">
         <Link to="/request">
           <button className="bg-blue-700 hover:bg-blue-800 px-4 py-2 rounded-lg font-bold text-white">
             Send Request

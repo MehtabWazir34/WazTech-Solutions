@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 import Aos from "aos";
 import Hero from "../components/Hero";
 import Us from "../components/Us";
-import RequestForm from "../components/RequestForm";
+import RequestForm from "../Pages/RequestForm";
 import Reviews from "../components/Reviews";
 import myImg from "../assets/Me.jpg";
 import graphicsCard from "../assets/graphics.jpg"
 
 const previewTeam = [
-  { id: 1, title: "SaifUllah Khan", cate: "Software Engineer", pic: "https://media.licdn.com/dms/image/v2/D4D03AQHote-snDKK0g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730812444229?e=1758758400&v=beta&t=JmeAPPLnK8fjAHw1fE_lzdOIFz1-4tQRtnY8DupTHvk" },
-  { id: 2, title: "Mehtab Wazir", cate: "Front-end Developer", pic: myImg },
+  { id: 1, title: "SaifUllah Khan", cate: "Software Devoloper & Engineer", pic: "https://media.licdn.com/dms/image/v2/D4D03AQHote-snDKK0g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730812444229?e=1772064000&v=beta&t=qw1mKg_Ob2Da4WI6hkXC-77SX3nnzcKupxa2ydCrGYA" },
+  { id: 2, title: "Mehtab Wazir", cate: "FullStack Developer", pic: myImg },
   
-  { id: 3, title: "Nehal Anees", cate: "On-Page SEO Specialist", pic: "https://media.licdn.com/dms/image/v2/D4D03AQFWhNIhJP21zQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731560468456?e=1758758400&v=beta&t=qnExAn1tEvmDa8upnnEcRr5hZTPR1XvkFv-9qHq5rKU" }
+  { id: 3, title: "Nehal Anees", cate: "On-Page SEO Specialist", pic: "https://media.licdn.com/dms/image/v2/D4D03AQEDM2PHucKT1g/profile-displayphoto-scale_200_200/B4DZk_VfQKGsAY-/0/1757704225283?e=1772064000&v=beta&t=-aL3qLG-A0WNCoyGN45b_ASoj97Ts0HgbIgztbFurA4" }
 ];
 const previewServices = [
   { id: 1, type: "Graphics Designs", info: "Quality designs.", card: graphicsCard },
@@ -55,9 +55,9 @@ function Home() {
       <Hero/>
 
             <motion.div className="min-h-[70vh] w-full grid items-center border-b border-gray-400 mb-8">
-        <h2 className="text-4xl font-bold text-center">What WazSite?</h2>
+        <h2 className="text-4xl font-bold text-center">What is WazTech Solutions?</h2>
       <p className="text-lg leading-relaxed w-full">
-        At WazSite-TechSolvant, we believe solutions matter more than services. Born out of the idea that technology should not confuse but empower, we built this platform as a solution center—a place where challenges meet creativity, and problems find their way to answers.
+        At WazTech Solutions, we believe solutions matter more than services. Born out of the idea that technology should not confuse but empower, we built this platform as a solution center—a place where challenges meet creativity, and problems find their way to answers.
 <br /><br /> We’re not just another freelancing corner on the web. We are a team of thinkers, creators, and developers who are passionate about guiding people toward the right solution. Even if your challenge goes beyond technology, we’ll point you in the right direction—because sometimes the best help is guidance itself.</p>
 <div className="text-center mt-6">
           <Link to="/us">
@@ -120,7 +120,7 @@ function Home() {
             key={i}
             className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md"
             data-aos="fade-up"
-            data-aos-delay={i * 150}
+            // data-aos-delay={i * 150}
           >
             <h3 className="font-semibold text-lg mb-2">{item.name}</h3>
             <p className="text-sm italic mb-1">Service: {item.service}</p>
@@ -137,7 +137,7 @@ function Home() {
         </div>
     </motion.div>
 
-      <RequestForm title = "Sent Request"/>
+      <RequestForm title={'Send Message'} />
     </motion.section>
   );
 }

@@ -59,7 +59,7 @@ function Footer() {
         </NavLink>
       </div>
       <p className="text-sm">
-        WazSite-TechSolvant &copy; {new Date().getFullYear()} All rights reserved.
+        WazTech Solutions &copy; {new Date().getFullYear()} All rights reserved.
       </p>
     </footer>
   );
