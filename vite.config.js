@@ -6,5 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss()],
-  base: "/WazTech-Solutions/",
+  base: import.meta.env.NODE_ENV === "production"
+    ? "/WazTech-Solutions/"
+    : "/",
 })
