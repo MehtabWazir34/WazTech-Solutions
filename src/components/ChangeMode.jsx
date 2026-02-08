@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect, useState } from 'react';
 
 function ChangeMode() {
@@ -17,15 +16,18 @@ function ChangeMode() {
 
   const toggleTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
+    console.log(theme);
+    
   };
 
+
   return (
-    <div className='mx-6 my-4 bottom-8 left-0 sticky rounded-full w-[70px] h-[70px]'>
+    <div className='mx-6 my-4 bottom-8 left-0 sticky rounded-full w-17 h-17'>
       <button
           onClick={toggleTheme} title='Change Mode'
           className="border px-3 py-2 rounded-full font-semibold transition 
                      bg-gray-200 text-gray-900 hover:bg-gray-300 
-                     dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 w-[60px] h-[60px]"
+                     dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 w-15 h-15"
         >
           {theme === "light" ? "🌙" : "☀️"}
         </button>
