@@ -51,7 +51,7 @@ function RequestForm({title}) {
             id="name"
             name="name"
             placeholder="Write your name here..."
-            className="w-full px-3 py-2 rounded-md border border-orange-500 bg-transparent focus:ring-2 focus:ring-orange-400 outline-none"
+            className="w-full px-3 py-2 rounded-md border border-orange-500 bg-transparent focus:ring-2 focus:ring-orange-500 outline-none"
           />
         </div>
 
