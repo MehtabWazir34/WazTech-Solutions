@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { init, sendForm } from "@emailjs/browser";
 
-init('kA-_f4Iyn8GmTk8nF');
+init(`${import.meta.env.VITE_publicKEY}`);
 
 function RequestForm({title}) {
 
@@ -88,7 +88,7 @@ function RequestForm({title}) {
           Send Request
         </button>
       </motion.form>
-    </.section>
+    </motion.section>
   );
 }
 
