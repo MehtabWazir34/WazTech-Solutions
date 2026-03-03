@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import myImg from "../assets/Me.jpg";
 import graphicsCard from "../assets/graphics.jpg"
 import Hero from "../components/Hero";
+import RequestForm from "./RequestForm";
 
 const previewTeam = [
   { id: 1, title: "SaifUllah Khan", cate: "Software Devoloper & Engineer", pic: "https://media.licdn.com/dms/image/v2/D4D03AQHote-snDKK0g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730812444229?e=1772064000&v=beta&t=qw1mKg_Ob2Da4WI6hkXC-77SX3nnzcKupxa2ydCrGYA" },
