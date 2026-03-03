@@ -88,7 +88,7 @@ function RequestForm({title}) {
           Send Request
         </button>
       </motion.form>
-    </motion.section>
+    </.section>
   );
 }
 

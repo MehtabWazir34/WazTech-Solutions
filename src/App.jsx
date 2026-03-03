@@ -1,13 +1,13 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import Us from "./pages/Us";
-import Services from "./pages/Services";
-import OurTeam from "./pages/OurTeam";
-import RequestForm from "./Pages/RequestForm";
-import Reviews from "./components/Reviews";
-import ChangeMode from "./components/ChangeMode";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import Home from "./Pages/Home.jsx";
+import Us from "./Pages/Us.jsx";
+import Services from "./Pages/Services.jsx";
+import OurTeam from "./Pages/OurTeam.jsx";
+import RequestForm from "./Pages/RequestForm.jsx";
+import Reviews from "./components/Reviews.jsx";
+import ChangeMode from "./components/ChangeMode.jsx";
 
 
 // import Hero from "./components/Hero";

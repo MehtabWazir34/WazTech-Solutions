@@ -1,10 +1,5 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Aos from "aos";
-import Hero from "../components/Hero";
-import Us from "../components/Us";
-import RequestForm from "../Pages/RequestForm";
-import Reviews from "../components/Reviews";
 import myImg from "../assets/Me.jpg";
 import graphicsCard from "../assets/graphics.jpg"
 

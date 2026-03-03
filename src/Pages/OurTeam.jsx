@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import RequestForm from "../Pages/RequestForm";
+import RequestForm from "../Pages/RequestForm.jsx";
 import MyImg from "../assets/Me.jpg"
 
 const allTeam = [
