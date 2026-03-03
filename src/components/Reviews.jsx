@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import RequestForm from "../Pages/RequestForm";
+import RequestForm from "../Pages/RequestForm.jsx";
 
 function Reviews() {
   useEffect(() => {
@@ -38,7 +38,7 @@ function Reviews() {
       review: "Our site traffic doubled within weeks. Very effective SEO strategy!",
     },
     {
-      name: "Sadia Wazir",
+      name: "Sadia Khan",
       service: "UI/UX",
       review: "Clean, responsive, and fast delievery. Excellent work!",
     },

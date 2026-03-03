@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion , AnimatePresence } from "framer-motion";
 import menuIcon from "../assets/menu Bar.jpg";
 import logo from "../assets/logo.png"
 
@@ -176,7 +176,7 @@ function Header() {
           <img
             src={menuIcon}
             alt="menu icon"
-            className="rounded-full cursor-pointer w-[60px] h-[60px] outline-none"
+            className="rounded-full cursor-pointer w-15 h-15 outline-none"
             onClick={() => {
               setOpen(!open)
               return setOpen(!open);

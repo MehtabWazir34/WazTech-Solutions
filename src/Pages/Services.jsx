@@ -72,7 +72,7 @@ function Services() {
       <h2 className="text-4xl font-bold mb-6">All Our Services</h2>
       <p className="mb-8">We provide a wide range of professional tech solutions.</p>
 
-      <motion.div className="hidden grid gap-6 md:block">
+      <motion.div className="hidden gap-6 md:block">
         {allServices.map(service => (
 
          service.id % 2===0 ? 

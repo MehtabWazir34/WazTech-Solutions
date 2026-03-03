@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 function Us() {
   return (
     <motion.section
-      className="py-6 px-6 max-w-4xl mx-auto min-h-[100vh] grid items-center"
+      className="py-6 px-6 max-w-4xl mx-auto min-h-screen grid items-center"
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}
